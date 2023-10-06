@@ -1,6 +1,6 @@
 const userChoice = prompt("What will be your play");
 const upperCaseChoice =
-  userChoice.charAt(0).toUpperCase() + userChoice.slice(1);
+  userChoice.charAt(0).toUpperCase() + userChoice.slice(1).toLowerCase();
 let computerChoice;
 
 const getComputerChoice = () => {
